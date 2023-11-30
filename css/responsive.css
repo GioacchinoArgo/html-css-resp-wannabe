@@ -8,5 +8,50 @@
 
 
 
-/* mobile dai 576px */
+/* mobile 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 576px;
+        padding: 0;
+    }
 
+    .row {
+        display: block;
+    }
+
+    .col {
+        margin: auto;
+        padding: 0 0 50px 0;
+        width: 100%;
+    }
+
+    .why-us {
+        padding-top: 50px;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+
+    .steps {
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+    .steps .card {
+        width: 400px;
+        position: relative;
+        right: 55%;
+        padding: 0 50px;
+    }
+
+    .why-us h2 {
+        padding: 0px 100px;
+    }
+
+    ul {
+        padding: 0 20px;
+    }
+
+    .why-us .col-left {
+        width: 50%;
+    }
+}
